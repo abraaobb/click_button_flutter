@@ -28,9 +28,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('To-do list project'),
+        title: const Text('Click button'),
       ),
-      body: const Center(child: Text('Pressione o botão! teste')),
+      body: const Center(child: Text('Pressione o botão!')),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(
